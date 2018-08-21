@@ -9,6 +9,7 @@ import android.view.Menu;
 
 import com.example.android.instagramapp.R;
 import com.example.android.instagramapp.Utilities.BottomNavigationUtilities;
+import com.example.android.instagramapp.Utilities.SectionPagerAdapter;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
 public class HomeActivity extends AppCompatActivity {

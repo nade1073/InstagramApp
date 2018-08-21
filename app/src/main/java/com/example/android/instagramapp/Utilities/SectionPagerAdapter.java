@@ -1,4 +1,4 @@
-package com.example.android.instagramapp.Home;
+package com.example.android.instagramapp.Utilities;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
