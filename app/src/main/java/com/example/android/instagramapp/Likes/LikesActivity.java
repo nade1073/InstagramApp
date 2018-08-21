@@ -9,10 +9,11 @@ import com.example.android.instagramapp.R;
 import com.example.android.instagramapp.Utilities.BottomNavigationUtilities;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
-public class LikesActivity extends AppCompatActivity{
+public class LikesActivity extends AppCompatActivity {
 
     private Context mContext = LikesActivity.this;
-    private static final int ACTIVITY_NUM=4;
+    private static final int ACTIVITY_NUM = 3;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,7 +25,7 @@ public class LikesActivity extends AppCompatActivity{
         BottomNavigationViewEx bnve = (BottomNavigationViewEx) findViewById(R.id.bottomNavViewBar);
         BottomNavigationUtilities.customizeNavigationBar(bnve);
         BottomNavigationUtilities.handleClicksOnMenuItemBar(mContext, bnve);
-        Menu menu=bnve.getMenu();
+        Menu menu = bnve.getMenu();
         menu.getItem(ACTIVITY_NUM).setChecked(true);
     }
 }

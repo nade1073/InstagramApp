@@ -11,7 +11,7 @@ import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
 public class SearchActivity extends AppCompatActivity{
     private Context mContext = SearchActivity.this;
-    private static final int ACTIVITY_NUM=3;
+    private static final int ACTIVITY_NUM=2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
